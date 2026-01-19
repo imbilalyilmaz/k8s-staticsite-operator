@@ -1,0 +1,7 @@
+apiVersion: web.mydomain.com/v1
+kind: StaticSite
+metadata:
+  name: benim-sitem
+spec:
+  gitRepo: "https://github.com/cloudacademy/static-website-example"
+  replicas: 2
